@@ -1,4 +1,4 @@
-include LICENSE
-include README.md
-recursive-include aldryn_table/locale *
-recursive-exclude * *.pyc
+include LICENSE.txt
+include README.rst
+recursive-include aldryn_snake/locale *
+recursive-exclude * *.py[co]

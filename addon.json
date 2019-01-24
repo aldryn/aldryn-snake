@@ -1,0 +1,6 @@
+{
+    "package-name": "aldryn-snake",
+    "installed-apps": [
+        "aldryn_snake"
+    ]
+}

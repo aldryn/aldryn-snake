@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from django.utils.safestring import mark_safe
 
 
@@ -5,13 +6,13 @@ class Registry(object):
     def __init__(self):
         self.head = []
         self.tail = []
-        
+
     def add_to_head(self, content):
         self.head.append(content)
-    
+
     def add_to_tail(self, content):
         self.tail.append(content)
-        
+
     def template_processor(self, request):
         obj = TemplateContextProcessor(registry=self, request=request)
         return {
