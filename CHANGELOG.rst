@@ -3,7 +3,14 @@ Changelog
 =========
 
 
-0.1.0 (2019-05-23)
+1.0.1 (unreleased)
+==================
+
+* Added support for Django 3.0
+* Added support for Python 3.8
+
+
+1.0.0 (2019-05-23)
 ==================
 
 * Added support for Django 2.2 and django CMS 3.7
