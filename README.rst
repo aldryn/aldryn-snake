@@ -39,8 +39,7 @@ Installation
 * add ``aldryn_snake.template_api.template_processor`` to your TEMPLATE_CONTEXT_PROCESSORS settings
 * somewhere in your app (that will be imported on startup (models, admin etc) add something to the api::
 
-    # -*- coding: utf-8 -*-
-    from aldryn_snake.template_api import registry
+        from aldryn_snake.template_api import registry
     from django.conf import settings
 
     OPTIMIZELY_SCRIPT = """<script src="//cdn.optimizely.com/js/%(account_number)s.js"></script>"""
@@ -87,7 +86,7 @@ You can run tests by executing::
 .. |coverage| image:: https://codecov.io/gh/divio/aldryn-snake/branch/master/graph/badge.svg
     :target: https://codecov.io/gh/divio/aldryn-snake
 
-.. |python| image:: https://img.shields.io/badge/python-2.7%20%7C%203.4+-blue.svg
+.. |python| image:: https://img.shields.io/badge/python-3.5+-blue.svg
     :target: https://pypi.org/project/aldryn-snake/
-.. |django| image:: https://img.shields.io/badge/django-1.11%20%7C%202.2%20%7C%203.0-blue.svg
+.. |django| image:: https://img.shields.io/badge/django-2.2,%203.0,%203.1-blue.svg
     :target: https://www.djangoproject.com/

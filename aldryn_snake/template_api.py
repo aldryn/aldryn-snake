@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
 from django.utils.safestring import mark_safe
 
 
-class Registry(object):
+class Registry:
     def __init__(self):
         self.head = []
         self.tail = []
@@ -21,7 +20,7 @@ class Registry(object):
         }
 
 
-class TemplateContextProcessor(object):
+class TemplateContextProcessor:
     def __init__(self, registry, request=None):
         self.registry = registry
         self.request = request
